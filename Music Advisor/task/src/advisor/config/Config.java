@@ -12,8 +12,9 @@ public class Config {
     public static final String REDIRECT_URI = "http://localhost:8080";
     public static final int REDIRECT_URI_PORT = 8080;
     public static String ACCESS_SERVER_POINT = "https://accounts.spotify.com";
-    public static String AUTH_LINK = ACCESS_SERVER_POINT + "";
     public static final String AUTH_PATH = "";
+    public static String AUTH_LINK = ACCESS_SERVER_POINT + AUTH_PATH;
+
 
     public static void updateLink(String accessPoint) {
         ACCESS_SERVER_POINT = accessPoint;
